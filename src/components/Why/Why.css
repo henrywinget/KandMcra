@@ -1,0 +1,35 @@
+.Why-block {
+    padding: 50px 20px 0px;
+}
+
+.Why-out-container {
+    background: rgba(255, 87, 51, 0.15);
+    padding: 0px 20px;
+}
+
+.Why-in-container {
+    background: whitesmoke;
+}
+
+.Why-question {
+    /*padding-bottom: 10px;*/
+    font-weight: bold;
+    color: #FF5733;
+}
+
+.Why-answer-p {
+    font-size: 20px;
+    padding: 15px 0;
+    line-height: 200%;
+}
+
+@media only screen and (max-width: 600px) {
+    .Why-question {
+        /*padding-bottom: 10px;*/
+        font-size: 28px;
+    }
+
+    .Why-answer-p {
+        font-size: 16px;
+    }
+}

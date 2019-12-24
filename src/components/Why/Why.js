@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import { Container } from 'reactstrap';
 
 import "./Why.css";
 
@@ -45,12 +45,16 @@ class Why extends Component {
 		];
 		
 		return (
-			<div className="Why-out-container">
+			<div id="about" className="Why-out-container">
 				<Container className="Why-in-container">
 					{whys.map((why, ind) => {
+						const question = why.q.includes('K&M')
+							? <div>{why.q.replace('K&M', '').replace('?', '')}<span className="KM-font">K&M</span>?</div>
+							: why.q;
+						
 						return (
 							<div className={"Why-block"} key={"q-" + ind}>
-								<h2 className="Why-question">{why.q}</h2>
+								<h2 className="Why-question">{question}</h2>
 								{why.a.map((ans, ansI) => {
 									const isFirst = ansI === 0;
 									const style = {

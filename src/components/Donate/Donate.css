@@ -1,0 +1,50 @@
+.Donate-area {
+    background: rgba(255, 87, 51, 0.15);
+    padding-bottom: 75px;
+}
+
+.Donate-header {
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+/*.Donate-in-container {*/
+    /*background: whitesmoke;*/
+    /*border-radius: 10px;*/
+/*}*/
+
+.Donate-p {
+    font-size: 20px;
+    padding: 15px;
+    line-height: 200%;
+    text-align: left;
+    background: whitesmoke;
+    border-radius: 10px;
+    min-height: 600px;
+}
+
+.Donate-bjb-header {
+    margin-bottom: 50px;
+    background: #FF5733;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    -webkit-transition: background 1s, color 1s;
+    transition: background 1s, color 1s;
+        /*width: 250px;*/
+}
+
+.Donate-bjb-header:hover {
+    background: white;
+    color: #FF5733;
+    text-decoration: none;
+    /*width: 250px;*/
+}
+
+.Donate-header-area {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,15 @@
+.Contact-all-area {
+    background: rgba(255, 87, 51, 0.15);
+    padding-bottom: 50px;
+}
+
+.Contact-form-area {
+    background: whitesmoke;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.Contact-form-button {
+    background: #FF5733 !important;
+    border: 1px solid #FF5733 !important;
+}

@@ -6,6 +6,16 @@
     background: #FF5733;
 }
 
+.footer-bottom {
+    display: flex;
+    padding: 10px 25px;
+    line-height: 1.5rem;
+    text-align: center;
+    background: #FF5733;
+    border-bottom-left-radius: 25px;
+    color: white;
+}
+
 .footer a {
     color: white;
 }
@@ -55,5 +65,11 @@
 @media only screen and (max-width: 600px) {
     .footer-nav-anchors {
         font-size: 12px;
+    }
+    .footer-nav-anchors {
+        padding: 5px;
+    }
+    .footer-all-icons {
+        padding: 20px 0;
     }
 }

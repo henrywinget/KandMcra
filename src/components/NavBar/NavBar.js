@@ -4,15 +4,9 @@ import {
 	Collapse,
 	Navbar,
 	NavbarToggler,
-	NavbarBrand,
 	Nav,
 	NavItem,
-	NavLink,
-	UncontrolledDropdown,
-	DropdownToggle,
-	DropdownMenu,
-	DropdownItem,
-	NavbarText
+	NavLink
 } from 'reactstrap';
 
 import './NavBar.css';
@@ -41,19 +35,19 @@ class NavBar extends Component {
 							<Nav className="all-navs" navbar>
 								<Fade top>
 								<NavItem>
-									<NavLink href="/" right>About</NavLink>
+									<NavLink href="#homes" right><span className="KM-font">K&M</span> Homes</NavLink>
 								</NavItem>
 								<NavItem>
-									<NavLink href="/homes" right>K&M Homes</NavLink>
+									<NavLink href="#about" right>About</NavLink>
 								</NavItem>
 								<NavItem>
-									<NavLink href="/frequently-asked-questions" right>FAQ</NavLink>
+									<NavLink href="#donate" right>Donate</NavLink>
 								</NavItem>
 								<NavItem>
-									<NavLink href="/donate" right>Donate</NavLink>
+									<NavLink href="#frequently-asked-questions" right>FAQ</NavLink>
 								</NavItem>
 								<NavItem>
-									<NavLink href="/contact" right>Contact</NavLink>
+									<NavLink href="#contact" right>Contact</NavLink>
 								</NavItem>
 								</Fade>
 							</Nav>

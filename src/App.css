@@ -2,3 +2,13 @@
   text-align: center;
   font-family: 'Open Sans', sans-serif;
 }
+
+.Page-header {
+  color: #FF5733;
+  font-weight: bold;
+}
+
+.KM-font {
+  color: #FF5733;
+  font-family: 'Pacifico', cursive;
+}

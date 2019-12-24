@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Row, Col } from "reactstrap";
+import { Row, Col, Container } from "reactstrap";
 
 import Fade from 'react-reveal/Fade';
 
@@ -9,6 +9,7 @@ import "./Home.css";
 const Home = () => {
 	return (
 	<div className="carousel-body">
+		<Container>
 		<div className="home-floater">
 			<Fade bottom>
 				{window.innerWidth < 650 ? <div className="Phone_home">
@@ -21,7 +22,6 @@ const Home = () => {
 						}
 						}>
 						<h1 style={{
-							color: '#FF5733',
 							fontWeight: 'bolder',
 							background: 'white',
 							opacity: 1,
@@ -52,9 +52,10 @@ const Home = () => {
 				
 			</Fade>
 			<Fade bottom>
-				<p>Providing permanent supported housing in a fully customized enriching Christian family home.</p>
+				<p>Providing permanent supported housing in a fully customized, enriching, Christian family home.</p>
 			</Fade>
 		</div>
+		</Container>
 	</div>
 	)
 };

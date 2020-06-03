@@ -41,7 +41,7 @@ class AllHomes extends Component {
 									<CardTitle className="Home-card-title">{home.title}</CardTitle>
 									<CardSubtitle className="Home-card-title KM-font">{home.est}</CardSubtitle>
 								</CardBody>
-								<img className="Home-card-img" width="100%" src={home.src} alt="Card cap" />
+								<img className="Home-card-img" width="100%" src={home.src} alt={`Card for ${home.title} established on ${home.est}`} />
 								<div className="Home-card-overlay">
 									<div className="Home-card-text">{home.description}</div>
 								</div>

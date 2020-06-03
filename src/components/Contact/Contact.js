@@ -26,28 +26,28 @@ class Contact extends Component {
 							<Row>
 								<Col md={6}>
 									<FormGroup>
-										<Label for="exampleEmail">First Name</Label>
-										<Input type="text" name="firstName" id="exampleEmail" placeholder="Jane" />
+										<Label for="firstName">First Name</Label>
+										<Input type="text" name="firstName" id="firstName" placeholder="Jane" />
 									</FormGroup>
 								</Col>
 								<Col md={6}>
 									<FormGroup>
-										<Label for="exampleEmail">Last Name</Label>
-										<Input type="text" name="lastName" id="exampleEmail" placeholder="Doe" />
+										<Label for="lastName">Last Name</Label>
+										<Input type="text" name="lastName" id="lastName" placeholder="Doe" />
 									</FormGroup>
 								</Col>
 							</Row>
 							<FormGroup>
-								<Label for="exampleEmail">Email</Label>
-								<Input type="email" name="email" id="exampleEmail" placeholder="jdoe@gmail.com" />
+								<Label for="emailInput">Email</Label>
+								<Input type="email" name="email" id="emailInput" placeholder="jdoe@gmail.com" />
 							</FormGroup>
 							<FormGroup>
 								<Label for="examplePassword">Phone number</Label>
-								<Input type="password" name="number" id="examplePassword" placeholder="555-555-5555" />
+								<Input type="tel" name="number" id="examplePassword" placeholder="555-555-5555" />
 							</FormGroup>
 							<FormGroup>
-								<Label for="exampleSelectMulti">How did you hear about us?</Label>
-								<Input type="select" name="selectMulti" id="exampleSelectMulti">
+								<Label for="howDidYouHear">How did you hear about us?</Label>
+								<Input type="select" name="selectMulti" id="howDidYouHear">
 									<option>Healthcare Professional/Physician Referral</option>
 									<option>Online Ad</option>
 									<option>Online Search</option>
@@ -63,12 +63,12 @@ class Contact extends Component {
 							</FormGroup>
 							<FormGroup tag="fieldset">
 								<FormGroup>
-									<Label for="exampleEmail">Subject</Label>
-									<Input type="text" name="firstName" id="exampleEmail" placeholder="Interest in K&M" />
+									<Label for="subjectMatter">Subject</Label>
+									<Input type="text" name="firstName" id="subjectMatter" placeholder="Interest in K&M" />
 								</FormGroup>
 								<FormGroup>
-									<Label for="exampleText">Message</Label>
-									<Input type="textarea" name="text" id="exampleText" />
+									<Label for="messageMatter">Message</Label>
+									<Input type="textarea" name="text" id="messageMatter" />
 								</FormGroup>
 							</FormGroup>
 							<Button className="Contact-form-button">Submit</Button>

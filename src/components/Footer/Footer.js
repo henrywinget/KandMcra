@@ -51,7 +51,7 @@ class Footer extends Component {
 					</Container>
 			</footer>
 				<footer className="footer-bottom">
-					<div><span style={{color: 'white'}} className="KM-font">K&M </span>Homes &copy; 2018-2020</div>
+					<div><span style={{color: 'white'}} className="KM-font">K&M </span>Homes &copy; 2018-2022</div>
 				</footer>
 			</div>
 		);

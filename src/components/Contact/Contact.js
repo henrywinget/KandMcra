@@ -8,10 +8,10 @@ class Contact extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-		
+
 		}
 	}
-	
+
 	render() {
 		return (
 			<div id="contact" className="Contact-all-area">
@@ -22,7 +22,7 @@ class Contact extends Component {
 						</Col>
 					</Row>
 					<div className="Contact-form-area">
-						<Form>
+						{/* <Form>
 							<Row>
 								<Col md={6}>
 									<FormGroup>
@@ -72,7 +72,9 @@ class Contact extends Component {
 								</FormGroup>
 							</FormGroup>
 							<Button className="Contact-form-button">Submit</Button>
-						</Form>
+						</Form> */}
+						<p>For all business inquiries email us at:</p>
+						<h6 className="Faq-title-text" style={{ wordWrap: 'break-word' }}>contact@kmresidentialsolutions.com</h6>
 					</div>
 				</Container>
 			</div>

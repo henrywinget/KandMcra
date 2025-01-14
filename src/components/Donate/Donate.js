@@ -19,7 +19,7 @@ class Donate extends Component {
 					</Row>
 					<Row>
 						<Col md={12} className="Donate-header-area">
-							<a  className="Donate-bjb-header" target='_blank' rel="noopener noreferrer" href="https://secure.donationpay.org/charitysmith/give5.php?f=bjb-memorial-fund">
+							<a className="Donate-bjb-header" target='_blank' rel="noopener noreferrer" href="https://give.donationpay.org/charitysmith/bjbmemorialfund/">
 								<h5>
 									<span>
 										<FaHandHoldingHeart /> Donate to the BJB memorial fund
@@ -49,7 +49,7 @@ class Donate extends Component {
 					</Row>
 					<Row>
 						<Col md={12}>
-							<a className="Donate-bjb-header" rel="noopener noreferrer"  href="https://charitysmith.org/memorial-funds/bjb-memorial-fund/" target="_blank">
+							<a className="Donate-bjb-header" rel="noopener noreferrer" href="https://charitysmith.org/memorial-funds/bjb-memorial-fund/" target="_blank">
 								Learn more
 							</a>
 						</Col>

@@ -74,7 +74,7 @@ class Contact extends Component {
 							<Button className="Contact-form-button">Submit</Button>
 						</Form> */}
 						<p>For all business inquiries email us at:</p>
-						<h6 className="Faq-title-text" style={{ wordWrap: 'break-word' }}>contact@kmresidentialsolutions.com</h6>
+						<h6 className="Faq-title-text" style={{ wordWrap: 'break-word' }}>contact@beckashouse.com</h6>
 					</div>
 				</Container>
 			</div>

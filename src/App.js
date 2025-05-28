@@ -58,10 +58,10 @@ class App extends Component {
           <Switch>
 	          <Route exact path="/">
                   <Home/>
-		          <AllHomes/>
-		          <Why/>
+		          {/* <AllHomes/> */}
+		          {/* <Why/> */}
 		          <Donate/>
-		          <Faq/>
+		          {/* <Faq/> */}
 		          <Contact/>
               </Route>
           </Switch>

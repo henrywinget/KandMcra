@@ -31,7 +31,7 @@ class AllHomes extends Component {
 				<Container>
 				<Row className="All-cards">
 				<Col md={12} className="All-homes-header">
-					<h1 className="Page-header"><span className="KM-font">K&M </span> Homes</h1>
+					<h1 className="Page-header"><span className="KM-font">More info </span></h1>
 				</Col>
 				{allHomes.map((home, index) => {
 					return (

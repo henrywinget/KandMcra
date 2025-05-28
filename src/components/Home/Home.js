@@ -30,12 +30,7 @@ const Home = () => {
 							padding: '0 20px',
 							fontSize: '54px',
 							fontFamily: '\'Pacifico\', cursive',
-						}}>K&M</h1>
-						</Col>
-					</Row>
-					<Row>
-						<Col>
-						<h1>Residential Solutions</h1>
+						}}>Becka's House</h1>
 						</Col>
 					</Row>
 				</div>
@@ -48,11 +43,11 @@ const Home = () => {
 					padding: '0 20px',
 					fontSize: '54px',
 					fontFamily: '\'Pacifico\', cursive',
-				}}>K&M</span> Residential Solutions</h1>}
+				}}>Becka's House</span></h1>}
 				
 			</Fade>
 			<Fade bottom>
-				<p>Providing permanent supported housing in a fully customized, enriching, Christian family home.</p>
+				<p>A permanent, supported house in a fully customized, enriching, Christian family home.</p>
 			</Fade>
 		</div>
 		</Container>

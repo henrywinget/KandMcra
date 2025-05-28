@@ -34,18 +34,18 @@ class NavBar extends Component {
 						<Collapse className="flex-navbar" isOpen={isOpen} navbar>
 							<Nav className="all-navs" navbar>
 								<Fade top>
-								<NavItem>
+								{/* <NavItem>
 									<NavLink href="#homes" right><span className="KM-font">K&M</span> Homes</NavLink>
-								</NavItem>
+								</NavItem> */}
 								<NavItem>
 									<NavLink href="#about" right>About</NavLink>
 								</NavItem>
 								<NavItem>
 									<NavLink href="#donate" right>Donate</NavLink>
 								</NavItem>
-								<NavItem>
+								{/* <NavItem>
 									<NavLink href="#frequently-asked-questions" right>FAQ</NavLink>
-								</NavItem>
+								</NavItem> */}
 								<NavItem>
 									<NavLink href="#contact" right>Contact</NavLink>
 								</NavItem>
